@@ -1,0 +1,31 @@
+.custom-meta-box-area{
+	width: 100%;
+}
+
+.custom-meta-box-area input, .custom-meta-box-area textarea{
+	float: left;
+	clear: both;
+	margin: 0 0 2px 10px;
+	line-height: 20px;
+	font-size: 18px;
+}
+
+.custom-meta-box-area input{
+	width: 90%;
+}
+
+.custom-meta-box-area textarea{
+	height: 100px;
+}
+
+.custom-meta-box-area span{
+	float: left;
+	clear: both;
+	margin: 0 0 20px 20px;
+	font-size: 16px;
+}
+
+#custom_meta_box{
+	height: 750px;
+}
+

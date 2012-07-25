@@ -1,0 +1,13 @@
+/*
+Theme Name: Mini Cinema HTML5
+Theme URI: http://imkreative.com
+Description: An HTML5 version of Mini Cinema based on Starkers
+Version: 3.2
+Author: Clemente Gomez
+Author URI: http://imkreative.com
+*/
+
+@import "css/reset.css";
+@import "css/layout.css";
+@import "css/imkreative.css";
+@import "css/minicinema.css";
