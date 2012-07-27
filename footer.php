@@ -20,6 +20,7 @@
 	wp_footer();
 ?>
 </section>
+<script src="<? echo get_template_directory_uri(); ?>/js/fm.js"></script>
 <script src="<? echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 </body>
 </html>
