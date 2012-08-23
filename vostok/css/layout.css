@@ -1,0 +1,190 @@
+/* layout.css */
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 600px;
+	min-width: 600px;
+}
+
+#header {
+	margin: 0 0 -0.2em 0;
+	padding: 2em 0 0 0;
+	position: relative;
+}
+
+#header-widgets{
+	float: right;
+}
+
+#header .description {
+	margin: .5em 0 0 0;
+}
+
+.string {
+	margin: 4.6em 0 0 0;
+}
+
+.error {
+	margin: 2.6em 0;
+	line-height: 1.2em;
+}
+
+.menu li{
+	float: left;
+	padding: 1em; 
+}
+
+.post, .mini_video {
+	margin: 4.6em 0;
+	padding: 2.7em;
+	position: relative;
+}
+
+.post img, .mini_video img,
+.post object, .mini_video object,
+.post embed,  .mini_video embed{
+	display: block;
+	margin: 2em auto;
+}
+
+.post .vvqbox, .mini_video .vvqbox {
+	margin: 2em auto;
+}
+
+.post .date, .mini_video .date {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+}
+
+.post h2, .mini_video h2 {
+	margin: 0 0 1em 0;
+}
+
+.post h3, .mini_video h3,
+.post h4, .mini_video h4,
+.post h5, .mini_video h5 {
+	margin: 2em 0 1em 0;
+}
+
+.post .number-of-comments, .mini_video .number-of-comments {
+	bottom: 1em;
+	position: absolute;
+	right: 1em;
+}
+
+.post blockquote, .mini_video blockquote {
+	margin: 2em;
+	padding: .1em 1.5em;
+	position: relative;
+}
+
+.post blockquote cite, .mini_video blockquote cite {
+	display: block;
+	text-align: right;
+}
+
+/*
+.entry ul {
+	list-style: none inside;
+	padding: 0 1em;
+}
+
+.entry ol {
+	list-style: decimal outside;
+	padding: 0 2.5em;
+}
+
+.entry ul li {
+	background: url(../img/bullet.gif) 0 7px no-repeat;
+	margin: 1em 0;
+	padding: 0 0 0 15px;
+}
+
+.entry ol li {
+	margin: 1em 0;
+}
+*/
+
+.film_details {
+	margin: 1em 0;
+}
+.comment {
+	padding: 1.8em 1.6em;
+	position: relative;
+	overflow: hidden;
+}
+
+.comment .date {
+	bottom: 1em;
+	position: absolute;
+	right: 1em;
+}
+
+#commentform {
+	margin: 2.3em 0 4.6em 0;
+	padding: 2.7em;
+}
+
+.pagination {
+	margin: -2.6em 0 4.6em 0;
+}
+
+.pagination div {
+	float: left;
+	margin: 0 2em 0 0;
+}
+
+.pagination .next {
+	float: right;
+}
+
+.pagination .prev, .pagination .next{
+	padding: .2em;
+}
+
+.pagination .prev a, .pagination .next a{
+	padding: .2em 2em;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#sidebar {
+	padding: 0 0 7em 0;
+}
+
+#sb-1,
+#sb-2 {
+	float: left;
+	width: 50%;
+}
+
+#sidebar .email {
+	background: url(../img/ico-mail.gif) 0 4px no-repeat;
+	padding: 0 0 0 1.8em;
+}
+
+#sidebar #rss li {
+	background: url(../img/ico-rss.jpg) left center no-repeat;
+	padding: 0 0 0 1.8em;
+	margin: .5em 0;
+}
+
+#footer {
+	padding: 1em 0;
+}
+
+#footer-widgets-left{
+	float: left;
+}
+
+#footer-widgets-right{
+	float: right;
+}
+
+.report{
+	float: right;
+	margin-right: .2em;
+}

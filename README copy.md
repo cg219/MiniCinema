@@ -1,4 +1,0 @@
-MiniCinema
-==========
-
-Mini Cinema Website
