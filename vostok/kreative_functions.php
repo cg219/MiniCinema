@@ -47,9 +47,15 @@
 			'type' => 'text'
 		),
 		array(
-			'label' => 'Official Website',
+			'label' => 'Official Website Link',
 			'desc' => 'Website URL',
 			'id' => $prefix . 'website',
+			'type' => 'text'
+		),
+		array(
+			'label' => 'Official Website',
+			'desc' => 'Website Name',
+			'id' => $prefix . 'website_name',
 			'type' => 'text'
 		),
 		array(

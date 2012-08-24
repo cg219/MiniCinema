@@ -12,18 +12,21 @@
 					<iframe src="http://player.vimeo.com/video/<? echo $postData['custom_video'][0]; ?>"  width="530" height="298" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 					
 					<ul class="film_details">
-						<li><strong>Genre:</strong> </li>
+						<li><strong>Genre:</strong> <? the_category(', '); ?></li>
 						<li><strong>Directed:</strong> <? echo $postData['custom_director'][0]; ?></li>
 						<li><strong>Written:</strong> <? echo $postData['custom_writer'][0]; ?></li>
 						<li><strong>Produced:</strong> <? echo $postData['custom_producer'][0]; ?></li>
-						<li><strong>Website:</strong> <a target="_blank" href="<? echo $postData['custom_website'][0]; ?>">Link</a></li>
+						<?
+							$linkName = $postData['custom_website_name'][0] ? $postData['custom_website_name'][0] : 'Link';
+						?>
+						<li><strong>Website:</strong> <a target="_blank" href="<? echo $postData['custom_website'][0]; ?>"><? echo $linkName; ?></a></li>
 						<li><strong>Cast:</strong> <? echo $postData['custom_cast'][0]; ?></li>
 					</ul>
 					<p><strong>Synopsis:</strong><br/>
 					<? echo $postData['custom_synopsis'][0]; ?></p>
 				</section>
 				<footer>
-					<span class="report"><a href="#">Report Issue</a></span>
+					<span class="report"><a href="mailto:contact@minicinema.tv?subject=Report Mini Cinema Issue">Report Issue</a></span>
 				</footer>
 			</article>
 		<?php endwhile; else: ?>
